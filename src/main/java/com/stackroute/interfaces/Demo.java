@@ -10,4 +10,9 @@ public class Demo implements Run1,Run2 {
     public void view(){
         System.out.println("Overriding view()");
     }
+    @Override
+    public void count(){
+        System.out.println("Overriding count()");
+
+    }
 }
